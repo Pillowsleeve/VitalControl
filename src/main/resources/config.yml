@@ -6,3 +6,9 @@ handle-join-messages: true
 first-join-message: "&7Welcome to the server &e&l{player}&7!"
 join-message: "&8[&a+&8] &e&l{player} &7connected to the server!"
 leave-message: "&8[&c-&8] &e&l{player} &7disconnected from the server!"
+
+# Max number of arguments a private message can contain.
+# Keep in mind that only arguments separated by a space (" ") count.
+# Also, In the command "/msg [player] [message]", "msg" and "player",
+# are already 2 arguments. So "32" means the message itself can be 30 arguments long.
+max-private-message-length: 32

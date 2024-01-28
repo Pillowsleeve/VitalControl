@@ -51,3 +51,13 @@ commands:
     description: "Easily tp to another player."
   tphere:
     description: "Easily tp another player to your location."
+  message:
+    description: "Privately Message other players."
+    aliases: [msg]
+  heal:
+    description: "Heal yourself or another player."
+  feed:
+    description: "Feed yourself or another player."
+  revive:
+    description: "Both Feed and Heal yourself or another player."
+    aliases: [rev]
