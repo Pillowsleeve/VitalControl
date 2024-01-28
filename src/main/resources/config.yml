@@ -1,0 +1,8 @@
+# Should Vital:Control handle join messages?
+# Set to 'false' if you would like a different plugin to handle the join/quit messages.
+handle-join-messages: true
+
+# Custom message on (first) join or on leave
+first-join-message: "&7Welcome to the server &e&l{player}&7!"
+join-message: "&8[&a+&8] &e&l{player} &7connected to the server!"
+leave-message: "&8[&c-&8] &e&l{player} &7disconnected from the server!"

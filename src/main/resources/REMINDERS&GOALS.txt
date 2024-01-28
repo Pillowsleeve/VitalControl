@@ -1,0 +1,6 @@
+
+// GOAL: Check for amount of homes/create maximum allowed governed by permissions
+// GOAL: Make a /homes or /listhomes command
+
+// REMINDER: Figure out how to check for an empty configSection
+// REMINDER: Try deleting home from config by just deleting main parent-path

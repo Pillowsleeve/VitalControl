@@ -1,0 +1,49 @@
+name: VitalControl
+version: '${project.version}'
+main: me.pixelperfect.vitalcontrol.VitalControl
+api-version: '1.20'
+author: Pillowsleeve
+commands:
+  creative:
+    description: "Set a player's game mode to creative."
+    aliases: [c]
+  survival:
+    description: "Set a player's game mode to survival."
+    aliases: [s]
+  adventure:
+    description: "Set a player's game mode to adventure."
+    aliases: [a]
+  spectator:
+    description: "Set a player's game mode to spectator."
+    aliases: [sp]
+  sethome:
+    description: "Set a home on your current location."
+  home:
+    description: "Teleports you to a home."
+  delhome:
+    description: "Delete a home."
+    aliases: [dhome]
+  listhomes:
+    description: "Returns a list of all your homes."
+    aliases: [homes, homelist]
+  vanish:
+    description: "Hide yourself from online players."
+  invsee:
+    description: "Access other players' inventory."
+  setwarp:
+    description: "Set a warp point."
+  warp:
+    description: "Teleport to a warp point."
+  delwarp:
+    description: "Delete a warp point."
+  listwarps:
+    description: "Returns a list of available warps."
+    aliases: [warps, warplist]
+  day:
+    description: "Set the time to day time (1000)"
+  noon:
+    description: "Set the time to noon time (6000)"
+  night:
+    description: "Set the time to night time (13000)"
+  midnight:
+    description: "Set the time to midnight time (18000)"
