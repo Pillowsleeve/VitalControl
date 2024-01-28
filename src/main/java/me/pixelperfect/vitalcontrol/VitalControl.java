@@ -50,6 +50,8 @@ public final class VitalControl extends JavaPlugin {
         this.getCommand("noon").setExecutor(new DayCommand(this));
         this.getCommand("night").setExecutor(new DayCommand(this));
         this.getCommand("midnight").setExecutor(new DayCommand(this));
+        this.getCommand("tpto").setExecutor(new TpToCommand(this));
+        this.getCommand("tphere").setExecutor(new TpHereCommand(this));
     }
     public void registerListeners() {
         this.getServer().getPluginManager().registerEvents(new PlayerJoinListener(this, data), this);

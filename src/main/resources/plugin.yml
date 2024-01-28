@@ -40,10 +40,14 @@ commands:
     description: "Returns a list of available warps."
     aliases: [warps, warplist]
   day:
-    description: "Set the time to day time (1000)"
+    description: "Set the time to day time (1000)."
   noon:
-    description: "Set the time to noon time (6000)"
+    description: "Set the time to noon time (6000)."
   night:
-    description: "Set the time to night time (13000)"
+    description: "Set the time to night time (13000)."
   midnight:
-    description: "Set the time to midnight time (18000)"
+    description: "Set the time to midnight time (18000)."
+  tpto:
+    description: "Easily tp to another player."
+  tphere:
+    description: "Easily tp another player to your location."
