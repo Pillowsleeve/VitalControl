@@ -61,3 +61,6 @@ commands:
   revive:
     description: "Both Feed and Heal yourself or another player."
     aliases: [rev]
+  beebow:
+    description: "Give the player a bow that fires explosive bee's!"
+    aliases: [bb]

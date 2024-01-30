@@ -2,6 +2,7 @@ package me.pixelperfect.vitalcontrol;
 
 import me.pixelperfect.vitalcontrol.commands.*;
 import me.pixelperfect.vitalcontrol.files.DataManager;
+import me.pixelperfect.vitalcontrol.listeners.CatBowProjectileListener;
 import me.pixelperfect.vitalcontrol.listeners.PlayerJoinListener;
 import me.pixelperfect.vitalcontrol.listeners.PlayerLeaveListener;
 import org.bukkit.ChatColor;
@@ -56,9 +57,11 @@ public final class VitalControl extends JavaPlugin {
         this.getCommand("heal").setExecutor(new HealCommand(this));
         this.getCommand("feed").setExecutor(new HealCommand(this));
         this.getCommand("revive").setExecutor(new HealCommand(this));
+        this.getCommand("beebow").setExecutor(new CatBow(this));
     }
     public void registerListeners() {
         this.getServer().getPluginManager().registerEvents(new PlayerJoinListener(this, data), this);
         this.getServer().getPluginManager().registerEvents(new PlayerLeaveListener(this, data), this);
+        this.getServer().getPluginManager().registerEvents(new CatBowProjectileListener(this), this);
     }
 }
